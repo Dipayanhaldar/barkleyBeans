@@ -2,6 +2,25 @@
 
 **A browser-first AI workspace for everyday questions, research, trend exploration, and content creation.**
 
+Barkley Beans is a lightweight, client-side AI workspace built with **HTML5, CSS3, and vanilla JavaScript**. It brings several task-focused AI experiences into one responsive Progressive Web App (PWA), while letting each visitor use their own API key with a supported provider.
+
+## At a glance
+
+| Item | Details |
+| --- | --- |
+| **Purpose** | Everyday AI assistance, structured research, content ideation, and trend exploration |
+| **Frontend** | HTML5, CSS3, vanilla JavaScript |
+| **App delivery** | Static website and installable PWA |
+| **AI access** | Direct browser-to-provider API requests; bring your own key (BYOK) |
+| **Client storage** | `sessionStorage` for provider keys; `localStorage` for chat history |
+| **PWA files** | Web App Manifest, Service Worker, SVG/PNG icons |
+| **Build tooling** | No package manager or build step required for the current static version |
+| **Hosting configuration** | Render static site; publish directory: `barkley-beans-studio` |
+| **Repository** | [Dipayanhaldar/barkleyBeans](https://github.com/Dipayanhaldar/barkleyBeans) |
+
+> **Architecture note:** This repository's current app is a static, browser-first frontend. It does not require an app-owned backend for the documented AI request flow. The visitor's browser sends requests to the selected provider, so API access, model availability, quotas, and provider policies apply.
+
+
 Barkley Beans brings four focused AI workflows into one responsive, installable web app. It uses a **bring-your-own-key (BYOK)** model: visitors connect an API key from a supported AI provider and send requests directly from their browser to that provider.
 
 ## Project links
