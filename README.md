@@ -25,9 +25,21 @@ Barkley Beans brings four focused AI workflows into one responsive, installable 
 
 ## Project links
 
-- **Live website:** https://barkley-beans-ai-studio.onrender.com/
-- **Project dossier and guide:** https://dipayanproject.notion.site/?source=copy_link
-- **Source code:** https://github.com/Dipayanhaldar/barkleyBeans
+<p align="center">
+  <a href="https://barkley-beans-ai-studio.onrender.com/"><strong>🚀 Open Barkley Beans</strong></a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/Dipayanhaldar/barkleyBeans"><strong>💻 Source repository</strong></a>
+  &nbsp;•&nbsp;
+  <a href="https://app.notion.com/p/405a0f05cdd281aa802dd6c78fa84c9c?pvs=4"><strong>📘 Public developer guide</strong></a>
+</p>
+
+- **Live website:** [barkley-beans-ai-studio.onrender.com](https://barkley-beans-ai-studio.onrender.com/)
+- **Public project documentation:** [Barkley Beans AI Studio — Public Developer Guide](https://app.notion.com/p/405a0f05cdd281aa802dd6c78fa84c9c?pvs=4)
+- **Source code:** [Dipayanhaldar/barkleyBeans](https://github.com/Dipayanhaldar/barkleyBeans)
+- **Application source directory:** [barkley-beans-studio](https://github.com/Dipayanhaldar/barkleyBeans/tree/main/barkley-beans-studio)
+- **Recent source history:** [main branch commits](https://github.com/Dipayanhaldar/barkleyBeans/commits/main)
+
+The live app and public guide are intended for visitors. This README documents the implementation at repository level. No private prompts, account details, credentials, personal contact information, or internal planning notes are included.
 
 ## Features
 
