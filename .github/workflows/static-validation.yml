@@ -39,7 +39,7 @@ jobs:
           from pathlib import Path
 
           html = Path("barkley-beans-studio/index.html").read_text(encoding="utf-8")
-          scripts = re.findall(r"<script\\b[^>]*>([\\s\\S]*?)</script>", html, re.IGNORECASE)
+          scripts = re.findall(r"<script\b[^>]*>([\s\S]*?)</script>", html, re.IGNORECASE)
           scripts = [script for script in scripts if script.strip()]
           if not scripts:
               raise SystemExit("No inline JavaScript block found to validate.")
