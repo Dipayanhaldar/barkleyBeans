@@ -43,7 +43,7 @@ jobs:
           scripts = [script for script in scripts if script.strip()]
           if not scripts:
               raise SystemExit("No inline JavaScript block found to validate.")
-          Path("/tmp/barkley-inline.js").write_text("\\n".join(scripts), encoding="utf-8")
+          Path("/tmp/barkley-inline.js").write_text("\n".join(scripts), encoding="utf-8")
           print(f"Extracted {len(scripts)} inline JavaScript block(s).")
           PY
           node --check /tmp/barkley-inline.js
